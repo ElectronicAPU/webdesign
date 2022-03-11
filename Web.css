@@ -1,0 +1,120 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+.webpage {
+  width: 100%;
+  height: 92.9rem;
+  /* border: 1rem solid black; */
+  background-image: url("paper.gif");
+  /* display: flex; */
+}
+
+.container1 {
+  width: 190rem;
+  height: 33rem;
+  /* border: 0.4rem solid black; */
+  display: flex;
+}
+
+.container2 {
+  width: 190rem;
+  height: 33rem;
+  /* border: 0.4rem solid black; */
+  display: flex;
+}
+
+.container3 {
+  width: 187rem;
+  height: 23rem;
+  border: 0.4rem;
+  border-color: black;
+  margin: 1.5rem;
+  border-radius: 2rem;
+}
+
+.yellowbox {
+  width: 30rem;
+  height: 30rem;
+  border: 0.4rem solid black;
+  /* background-color: yellow; */
+  margin: 1rem;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* background-image: url("human.gif"); */
+}
+
+.header1 {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.bluebox {
+  width: 155rem;
+  height: 30rem;
+  /* border: 0.4rem solid black; */
+  margin: 1rem;
+  border-radius: 2rem;
+  background-color: rgb(63, 186, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  background-image: url("star.gif");
+}
+
+.greenbox {
+  width: 186.4rem;
+  height: 22.2rem;
+  /* background-color: rgb(123, 236, 31); */
+  border-radius: 2rem;
+  border: 0.4rem solid rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.text {
+  margin: 0.5rem;
+  color: red;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* color: white; */
+}
+
+.detailsparagraph {
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.note {
+  font-size: 2.5rem;
+  font-style: italic;
+  color: white;
+}
+
+.danger {
+  font-size: 18rem;
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
